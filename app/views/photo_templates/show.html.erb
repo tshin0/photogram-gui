@@ -2,7 +2,7 @@
 
 <dl>
   <dt>Image</dt>
-  <dd><img src="<%= @the_photo.image %>"></dd>
+  <dd><img src="<%= @the_photo.image %>" alt="image"></dd>
 
   <dt>Caption</dt>
   <dd><%= @the_photo.caption %></dd>
@@ -14,7 +14,7 @@
   <dd><%= @the_photo.created_at %></dd>
 
   <dt>Edit photo</dt>
-  <dd>Form</dd>
+  <dd>form</dd>
 
   <dt>Delete photo</dt>
   <dd><a href="/delete_photo/<%= @the_photo.id %>">Delete this photo</a></dd>
